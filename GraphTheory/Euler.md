@@ -16,4 +16,11 @@ Euler:
 2) Với mọi đỉnh 𝑣 ∈ 𝑉: 𝑑𝑒𝑔−(𝑣) = 𝑑𝑒𝑔+(v). Khi đó ta nói đồ thị cân bằng.
 ✓ Hệ quả: Nếu một đồ thị có hướng có chu trình Euler thì nó
 liên thông mạnh.
-+ ĐL4: Định lý Euler
++ ĐL4: Định lý Euler (đường đi Euler). Đồ thị có hướng 𝐺 = (𝑉, 𝐸), ∣𝑉∣>1 , không có đỉnh cô lập, có đường đi Euler nhưng không có chu trình Euler khi
+và chỉ khi:
+1) 𝐺 liên thông yếu
+2) Có đúng hai đỉnh 𝑥, 𝑦 sao cho
+		𝑑𝑒𝑔+(𝑥) = 𝑑𝑒𝑔−(𝑥) + 1
+		𝑑𝑒𝑔−(𝑦) = 𝑑𝑒𝑔+(𝑦) + 1
+Các đỉnh còn lại thỏa
+		𝑑𝑒𝑔+(𝑣) = 𝑑𝑒𝑔−(v)
