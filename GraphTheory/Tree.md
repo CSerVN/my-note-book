@@ -58,6 +58,7 @@ n-2
 ### Các giải thuật tìm cây bao trùm:
 
 #### DFS:
+*proceduce*
 DFS (G: Liên thông với các đỉnh v1, v2,…,vn){
 	T := Cây chỉ gồm 1 đỉnh v1
 	visit(v1)
@@ -77,6 +78,7 @@ FUNCTION SpanningTreeDFS(r) {
 	}
 }
 #### BFS
+*proceduce*
 BFS (G: liên thông với tập đỉnh v1,v2,...,vn) {
 	T:= Cây chỉ gồm 1 đỉnh v1;
 	Q={v}//Queue: các đỉnh chưa xử lý
